@@ -72,6 +72,7 @@ const AddEditPost = () => {
           value={post.content}
           onChange={handleChange}
           required
+          rows="15"
         />
       </label>
       <label>
@@ -98,6 +99,11 @@ const Form = styled.form`
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20240304/pngtree-abstract-vector-orange-dark-color-green-light-background-image_15635106.jpg");
+  background-size: cover;
+  height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
 
   label {
     display: flex;
