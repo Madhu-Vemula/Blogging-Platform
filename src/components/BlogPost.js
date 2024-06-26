@@ -35,7 +35,8 @@ export default BlogPost;
 const Container = styled.div`
   max-width: 800px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px; 
+background-image: url("https://e0.pxfuel.com/wallpapers/325/962/desktop-wallpaper-llight-color-background-light-colour.jpg");
 `;
 
 const Title = styled.h1`
