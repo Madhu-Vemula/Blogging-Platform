@@ -35,8 +35,9 @@ export default BlogPost;
 const Container = styled.div`
   max-width: 800px;
   margin: 0 auto;
-  padding: 20px; 
-background-image: url("https://e0.pxfuel.com/wallpapers/325/962/desktop-wallpaper-llight-color-background-light-colour.jpg");
+  padding: 20px;
+  background-image: url("https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3440.jpg");
+  background-size: cover;
 `;
 
 const Title = styled.h1`
