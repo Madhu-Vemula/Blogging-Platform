@@ -38,6 +38,8 @@ const Container = styled.div`
   padding: 20px;
   background-image: url("https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-3440.jpg");
   background-size: cover;
+  min-height: 100vh;
+  height: 100%;
 `;
 
 const Title = styled.h1`
