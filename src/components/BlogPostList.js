@@ -46,8 +46,10 @@ export default BlogPostList;
 const Container = styled.div`
   max-width: 800px;
   margin: 0 auto;
-  padding: 20px; 
+  padding: 20px;
   background-image: url("https://www.shutterstock.com/image-vector/glittering-prism-light-background-gradation-600nw-2322861801.jpg");
+  background-size: cover;
+  min-height: 100vh;
   height: 100%;
 `;
 
